@@ -1,0 +1,11 @@
+# Dataset (Arquivos pesados)
+*.csv
+*.zip
+*.pkl
+
+# Python/Ambiente
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.env
+
