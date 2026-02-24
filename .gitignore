@@ -1,11 +1,18 @@
 # Dataset (Arquivos pesados)
 *.csv
 *.zip
-*.pkl
+
+# Modelos (Removido *.pkl para permitir o upload do modelo de 81MB)
+# Se tiver outros modelos que NÃO quer subir, liste-os individualmente abaixo:
+# modelo_antigo.pkl
 
 # Python/Ambiente
 __pycache__/
+*.py[cod]
+*$py.class
 .ipynb_checkpoints/
 venv/
 .env
 
+# Streamlit
+.streamlit/
