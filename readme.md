@@ -60,8 +60,8 @@ Instale as dependências:
 
 ```Bash
 pip install -r requirements.txt
-Execute o app:
 ```
+Execute o app:
 
 ```Bash
 streamlit run DeployAirbnb.py
