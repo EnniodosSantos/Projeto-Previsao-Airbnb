@@ -10,9 +10,12 @@ def load_model():
 st.set_page_config(page_title="Ennio Previsor de Preços", layout="centered")
 
 st.title("Previsor de Preços Airbnb Rio")
-st.markdown("""#### Ennio dos Santos
+st.markdown("""
 ### Estimativa de Preços de Diárias no Rio de Janeiro
 Utilize este modelo de Machine Learning para prever o valor de aluguel baseado em características do imóvel.
+
+#### Projeto de Ennio dos Santos
+[Visite meu portfólio aqui](https://enniodossantos.github.io/)
 """)
 st.divider()
 
